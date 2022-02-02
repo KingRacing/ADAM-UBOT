@@ -38,7 +38,7 @@ async def help(diorbot):
                          f"➩ **ᴍᴏᴅᴜʟᴇs :** {len(modules)}\n\n"
                          f"**PLUGINS:**\n"
                          f"{EMOJI_HELP} {string}\n\n\n"
-                         f"⚡ __Powered by **Fanda Project**__")
+                         f"⚡ __Powered by **Adam Project**__")
         await diorbot.reply(f"\n**Contoh** : Ketik ⟨`.help roasting`⟩ Untuk Informasi Pengunaan.")
         await asyncio.sleep(120)
         await diorbot.delete()
