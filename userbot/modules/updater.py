@@ -54,7 +54,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari DIOR-UBOT.`'
+                ' untuk dapat deploy perubahan terbaru dari ADAM-UBOT.`'
             )
             repo.__del__()
             return
@@ -127,7 +127,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "» #UPDATER «\n"
-            "**⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡ Berhasil di apdet anjass ツ**")
+            "**⚡Adam_Ubot⚡ Berhasil di apdet anjass ツ**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -215,12 +215,12 @@ async def upstream(event):
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit("` Proses Update ⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡, Loading....1%`")
-        await event.edit("` Proses Update ⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡,​ Loading....20%`")
-        await event.edit("` Proses Update ⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡, Loading....35%`")
-        await event.edit("` Proses Update ⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡​, Loading....77%`")
-        await event.edit("` Proses Update ⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡​, Updating...90%`")
-        await event.edit("` Proses Update ⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡, Mohon Tunggu Sebentar....100%`"
+        await event.edit("` Proses Update ⚡Adam-Ubah⚡, Loading....1%`")
+        await event.edit("` Proses Update ⚡Adam-ubot⚡,​ Loading....20%`")
+        await event.edit("` Proses Update ⚡Adam-ubot⚡, Loading....35%`")
+        await event.edit("` Proses Update ⚡Adam-ubot⚡​, Loading....77%`")
+        await event.edit("` Proses Update ⚡Adam-ubot⚡​, Updating...90%`")
+        await event.edit("` Proses Update ⚡Adam-ubot⚡, Mohon Tunggu Sebentar....100%`"
         )
 
     if conf == "now":
@@ -237,9 +237,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Untuk Melihat Pembaruan Terbaru DIOR-UBOT."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru ADAM-UBOT."
     "\n\n.update now"
-    "\nUsage: Memperbarui DIOR-UBOT."
+    "\nUsage: Memperbarui Adam-ubot."
     "\n\n.update deploy"
-    "\nUsage: Memperbarui DIOR-UBOT Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui Adam-ubot Dengan Cara Deploy Ulang."
 })
