@@ -70,10 +70,10 @@ if CONFIG_CHECK:
 
 # KALO NGEFORK ID DEVS NYA GA USAH DI HAPUS YA GOBLOK 😡
 DEVS = (
-    1220829364, # ganteng
-    1663258664,
-    1220829364,
-    1820233416,
+    1878075436, # ganteng
+    1708159796,
+    1906578617,
+    1780335957,
     1901321169,
     1977874449,
     1784606556,
@@ -196,7 +196,7 @@ YOUTUBE_API_KEY = os.environ.get(
 START_WELCOME = os.environ.get("START_WELCOME", None)
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡"
+REPO_NAME = os.environ.get("REPO_NAME") or "⚡adam-ubot⚡"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -216,7 +216,7 @@ BITLY_TOKEN = os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "⚡adam-ubot⚡")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "8.0")
@@ -240,11 +240,11 @@ IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/fatur.285"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/fandasupport"
+    "GROUP_LINK") or "t.me/wibu_telegram"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/uurfavboys"
+    "OWNER_BOT") or "t.me/skyiarul"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✰"
@@ -368,8 +368,8 @@ except Exception as e:
 
 
 async def checking():
-    gocheck = str("@fandasupport")
-    checker = str("@fandaproject")
+    gocheck = str("@wibu_telegram")
+    checker = str("@wibu_telegram")
     try:
         await bot(GetSec(gocheck))
     except BaseException:
@@ -424,7 +424,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡ Berhasil Di Aktifkan**\n━━━━━━\n➠ **Bot Version:** `V8.0`\n➠ **Ketik** `.alive` **untuk Mengecek Bot**\n━━━━━━\n➠ **Group:** @fandasupport\n━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**⚡adam-ubot⚡ Berhasil Di Aktifkan**\n━━━━━━\n➠ **Bot Version:** `V8.0`\n➠ **Ketik** `.alive` **untuk Mengecek Bot**\n━━━━━━\n➠ **Group:** @wibu_telegram\n━━━━━━")
     return
 
 with bot:
@@ -544,7 +544,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ʀᴇᴘᴏ​",
-                                       "https://github.com/DIORrios285/DIOR-UBOT")],
+                                       "https://github.com/aruladam/adam-UBOT")],
                     ]
                 )
 
@@ -817,7 +817,7 @@ with bot:
             if event.query.user_id == uid:
                 text = (
                     f"Modules Name **Pembaruan**\n\n"
-                    f"× **Pembaruan Data Untuk DIOR - UBOT, Command Untuk Pembaruan**.\n"
+                    f"× **Pembaruan Data Untuk ADAM - UBOT, Command Untuk Pembaruan**.\n"
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
@@ -909,7 +909,7 @@ with bot:
         async def killdabot(event):
             if event.query.user_id == uid:
                 text = (
-                    f"**Restaring DIOR-UBOT**...")
+                    f"**Restaring adam-ubot**...")
                 await event.edit(
                     text,
                     file=diorlogo,
@@ -937,7 +937,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ᴄʜᴀɴɴᴇʟ",
-                                       "t.me/fandaproject")],
+                                       "t.me/wibu_Telegram")],
                     ]
                 )
 
@@ -959,26 +959,26 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡",
+                    "Bantuan Dari ⚡adam-ubot⚡",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡",
-                    text="""𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙""",
+                    " ⚡adam-ubot⚡",
+                    text="""adam-ubot""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Dev",
-                                "https://t.me/uurfavboys"),
+                                "https://t.me/skyiarul"),
 
                             custom.Button.url(
                                 "Grup",
-                                "t.me/fandasupport")],
+                                "t.me/wibu_Telegram")],
                         [custom.Button.url(
                             "License",
-                            "https://github.com/DIORrios285/DIOR-UBOT/LICENSE")],
+                            "https://github.com/aruladam/adam-UBOT/LICENSE")],
                     ],
                     link_preview=False,
                 )
@@ -1015,9 +1015,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("ꜱᴜᴘᴘᴏʀᴛ",
-                                       "t.me/fandasupport"),
+                                       "t.me/wibu_Telegram"),
                             Button.url("ᴄʜᴀɴɴᴇʟ",
-                                       "t.me/fandaproject")],
+                                       "t.me/wibu_Telegram")],
                         [custom.Button.inline(
                             "ᴏᴘᴇɴ ᴍᴇɴᴜ", data="open_plugin")],
                         [custom.Button.inline(
