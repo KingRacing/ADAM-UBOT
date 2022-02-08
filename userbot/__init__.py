@@ -73,13 +73,7 @@ DEVS = (
     1878075436, # ganteng
     1708159796,
     1906578617,
-    1780335957,
-    1901321169,
-    1977874449,
-    1784606556,
-    1964264380,
-    5041451209, # huek najis 50
-    5249925905, # jo kontol najis id 50
+    1780335957, # SeorangDion
 )
 
 # Telegram App KEY and HASH
@@ -119,9 +113,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/DIORrios285/DIOR-UBOT")
+    "https://github.com/aruladam/ADAM-UBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "DIOR-UBOT")
+    "UPSTREAM_REPO_BRANCH", "ADAM-UBOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -196,7 +190,7 @@ YOUTUBE_API_KEY = os.environ.get(
 START_WELCOME = os.environ.get("START_WELCOME", None)
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "⚡adam-ubot⚡"
+REPO_NAME = os.environ.get("REPO_NAME") or "⚡Adam-Ubot⚡"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -216,7 +210,7 @@ BITLY_TOKEN = os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "⚡adam-ubot⚡")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "⚡Adam-Ubot⚡")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "8.0")
@@ -229,11 +223,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/b4fcaa3f9bd54d3802bcc.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/42390c20648779d483416.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/b4fcaa3f9bd54d3802bcc.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/42390c20648779d483416.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/fatur.285"
