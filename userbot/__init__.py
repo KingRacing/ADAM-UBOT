@@ -72,7 +72,7 @@ if CONFIG_CHECK:
 DEVS = (
     1878075436, # ganteng
     1708159796,
-    1906578617,
+    5053060141,
     1780335957, # SeorangDion
 )
 
